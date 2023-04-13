@@ -1,0 +1,16 @@
+.slider {
+  // height: 100vh;
+  padding: 0 !important;
+  margin: 0 !important;
+  img {
+    height: 650px;
+    @media (max-width:1024px) {
+      height: 500px;
+    }
+  }
+}
+
+// .container {
+//   padding: 0 !important;
+//   margin: 0 !important;
+// }

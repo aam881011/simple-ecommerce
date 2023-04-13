@@ -1,0 +1,17 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 20px 30px;
+  .box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
